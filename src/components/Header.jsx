@@ -17,7 +17,7 @@ import LoginIcon from "@mui/icons-material/Login";
 import LogoutIcon from "@mui/icons-material/Logout";
 import VpnKeyIcon from "@mui/icons-material/VpnKey";
 import { useSelector } from "react-redux";
-import appIcon from "../assets/appIcon.png";
+import appIcon from "../assets/appIcon.webp";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
 import DrawIcon from "@mui/icons-material/Draw";
 import PersonIcon from "@mui/icons-material/Person";
@@ -102,6 +102,7 @@ const Header = () => {
               display: { xs: "none", md: "flex" },
               mr: 1,
               cursor: "pointer",
+              backgroundColor:"white"
             }}
             alt="LEGER"
             src={appIcon}
@@ -169,6 +170,7 @@ const Header = () => {
             sx={{
               display: { xs: "flex", md: "none", cursor: "pointer" },
               mr: 1,
+              backgroundColor:"white"
             }}
             alt="LEGER"
             src={appIcon}
