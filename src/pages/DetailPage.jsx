@@ -44,8 +44,8 @@ const DetailPage = () => {
 
   const likesN = veri[0]?.likes || [];
   const likeDet = likesN?.map((item) => item?._id);
-  const author= veri.map((item)=>item?.author?._id)
-  const heart=likeDet.includes(userId)
+  const author= veri?.map((item)=>item?.author?._id)
+  const heart=likeDet?.includes(userId)
 
 
   const currentUser = user?._id
@@ -78,7 +78,7 @@ const DetailPage = () => {
                   p: "1.5rem",
                   m: "auto",
                   color: "black",
-                  backgroundColor: "#eef8fa",
+                  backgroundColor: "#ffffff",
                   display: "flex",
                   flexDirection: "column",
                   justifyContent: "space-between",

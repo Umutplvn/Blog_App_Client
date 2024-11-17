@@ -62,7 +62,7 @@ return (
               elevation={3}
               sx={{
                 color: "black",
-                "&:hover": { backgroundColor: "#eef8fa" },
+                "&:hover": { backgroundColor: "#ffffff" },
                 transition: "0.3s",
                 backgroundColor: "white",
                 display: "flex",

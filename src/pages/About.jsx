@@ -8,7 +8,7 @@ const About = () => {
         flexDirection: "column",
         gap: "10px",
         padding: "30px",
-        backgroundColor: "rgb(247, 253, 255)",
+        backgroundColor: "rgb(255, 255, 255)",
         marginTop: "4rem",
       }}
     >

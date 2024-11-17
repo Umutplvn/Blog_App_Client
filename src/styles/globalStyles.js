@@ -20,7 +20,7 @@ export const flexBoxRow = {
     color:"white",
     width: "250px",
     mt: "1.2rem",
-    backgroundColor:"#3E97EF",
+    backgroundColor:"white",
     padding: "2rem 1rem",
     justifyContent: "center",
     alignItems: "center",
@@ -73,7 +73,7 @@ export const registerContainer= {
   alignItems: "center",
   border:"1px solid black",
   borderRadius: "1rem",
-  backgroundColor:"white",
+  backgroundColor: "black",
   boxShadow:  "rgba(0, 0, 0, 0.24) 12px 3px 8px",
   overflow:"scroll",
   
@@ -85,18 +85,18 @@ export const btnStyle = {
   m:"auto",
   mt:"2rem",
   type: "submit",
-  backgroundColor: "#3E97EF",
+  backgroundColor: "black",
   color: "white",
   width: "8rem",
   display: "flex",
-  "&:hover":{backgroundColor:"primary.dark",  boxShadow:  "rgba(0, 0, 0, 0.24) 2px 3px 3px"}
+  "&:hover":{backgroundColor:"#000400",  boxShadow:  "rgba(0, 0, 0, 0.24) 2px 3px 3px"}
   
 };
 
 export const btnRed ={
-  backgroundColor:"#e53935", 
+  backgroundColor:"#b71c1c", 
   color:"white", 
-  "&:hover":{backgroundColor:"#b71c1c"}
+  "&:hover":{backgroundColor:"#b71b1d"}
 }
 
 export const btnGreen ={
@@ -111,11 +111,11 @@ export const btnLead= {
  variant: "contained",
  m:"1rem 0.5rem",
   type: "submit",
-  backgroundColor: "#3E97EF",
+  backgroundColor: "black",
   color: "white",
   width: "8rem",
   display: "flex",
-  "&:hover":{backgroundColor:"primary.dark",  boxShadow:  "rgba(0, 0, 0, 0.24) 2px 3px 3px"}
+  "&:hover":{backgroundColor:"#000400",  boxShadow:  "rgba(0, 0, 0, 0.24) 2px 3px 3px"}
   
 };
 

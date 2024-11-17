@@ -69,7 +69,7 @@ if(info.comment.length>=1){
       {item?.comments?.map((item) => (
         <>
           <Box
-            sx={{ backgroundColor: "#ffffffec", padding: "1rem" }}
+            sx={{ backgroundColor: "white", padding: "1rem" }}
             gap={2}
             display={"flex"}
             justifyContent={"s"}

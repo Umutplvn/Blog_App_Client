@@ -94,7 +94,7 @@ const Header = () => {
 
   return (
     
-    <AppBar position="fixed" sx={{zIndex:3, backgroundColor:"#9abfd1"}} >
+    <AppBar position="fixed" sx={{zIndex:3, backgroundColor:"#000000"}} >
       <Container maxWidth="xl" >
         <Toolbar disableGutters>
           <Avatar
@@ -155,7 +155,7 @@ const Header = () => {
                 display: { xs: "block", md: "none" },
               }}
             >
-              {pages.map((page) => (
+              {pages?.map((page) => (
                 <MenuItem
                   key={page.title}
                   onClick={() => handleHeader(page.url)}
@@ -195,7 +195,7 @@ const Header = () => {
             LEGERE
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-            {pages.map((page) => (
+            {pages?.map((page) => (
               <Button
                 key={page.title}
                 onClick={() => handleHeader(page.url)}
@@ -276,7 +276,7 @@ const Header = () => {
                   open={Boolean(anchorElUser)}
                   onClose={handleCloseUserMenu}
                 >
-                  {options.map((item) => (
+                  {options?.map((item) => (
                     <MenuItem
                       onClick={() => userFunction(item.url)}
                       key={item.id}

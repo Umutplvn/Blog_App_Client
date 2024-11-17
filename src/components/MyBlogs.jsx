@@ -16,8 +16,8 @@ const MyBlogs = () => {
 
   
   const {blogs} = useSelector((state) => state?.blogs);
-  const {userId}=useSelector((state)=>state.auth)
-  const {user}=useSelector((state)=>state.auth)
+  const {userId}=useSelector((state)=>state?.auth)
+  const {user}=useSelector((state)=>state?.auth)
   const navigate = useNavigate();
   const { postData, getData, getViews } = useDataCall();
 
@@ -61,7 +61,7 @@ const MyBlogs = () => {
               elevation={3}
               sx={{
                 color: "black",
-                "&:hover": { backgroundColor: "#eef8fa" },
+                "&:hover": { backgroundColor: "#ffffff" },
                 transition: "0.3s",
                 backgroundColor: "white",
                 display: "flex",

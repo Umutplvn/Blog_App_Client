@@ -34,7 +34,7 @@ const openModal=(item)=>{
 const draftBlogs=blogs.filter((item)=>item.status=="d")
 
   return (
-    <Box container height={"150vh"} sx={{pt:"5rem", backgroundColor:"rgb(247, 253, 255)"}}>
+    <Box container height={"150vh"} sx={{pt:"5rem", backgroundColor:"rgb(255, 255, 255)"}}>
       {draftBlogs?.length < 1 ? (
         <>
           <Typography
@@ -84,7 +84,7 @@ const draftBlogs=blogs.filter((item)=>item.status=="d")
                 elevation={3}
                 sx={{
                   color: "black",
-                  "&:hover": { backgroundColor: "#eef8fa" },
+                  "&:hover": { backgroundColor: "#ffffff" },
                   transition: "0.3s",
                   backgroundColor: "white",
                   display: "flex",

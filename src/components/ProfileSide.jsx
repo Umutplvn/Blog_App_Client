@@ -8,7 +8,7 @@ const ProfileSide = () => {
   const [revolve, setRevolve] = useState(true);
   const [open, setOpen] = React.useState(true);
 
-  const { user } = useSelector((state) => state.auth);
+  const { user } = useSelector((state) => state?.auth);
 
   const slide = () => {
     setRevolve(!revolve);
@@ -19,7 +19,7 @@ const ProfileSide = () => {
     <Box
       sx={{
         height: "110vh",
-        backgroundColor: "rgb(247, 253, 255)",
+        backgroundColor: "rgb(255, 255, 255)",
         padding: "6rem 0",
       }}
     >

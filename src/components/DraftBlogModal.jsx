@@ -132,7 +132,7 @@ const DraftBlogModal = ({ open, handleClose, info, setInfo }) => {
                     onChange={handleChange}
                     value={info?.status}
                   >
-                    {status.map((item, index) => (
+                    {status?.map((item, index) => (
                       <MenuItem
                         key={index}
                         name={status.name}

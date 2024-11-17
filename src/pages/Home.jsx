@@ -38,13 +38,13 @@ const Home = () => {
 
 
   return (
-    <div style={{backgroundAttachment:"fixed", height:"100vh", backgroundColor:"rgb(247, 253, 255)", overflow:"scroll"}}>
+    <div style={{backgroundAttachment:"fixed", height:"100vh", overflow:"scroll"}}>
       <Grid container sx={{display:"flex", justifyContent:"center"}}>
         <Grid item xs={11} md={11} mt={"4rem"}>
         {loading ? 
         
         <Box sx={{width:"100wh", height:"100vh", display:"flex", justifyContent:"center", alignItems:"center"}}>
-          <img src={spinner} style={{backgroundColor:"rgb(247, 253, 255)", width:"50%"}}/> 
+          <img src={spinner} style={{backgroundColor:"rgb(255, 255, 255)", width:"10rem"}}/> 
         </Box>
 : <BlogNews /> } 
         </Grid>

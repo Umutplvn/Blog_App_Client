@@ -55,7 +55,7 @@ const navigate=useNavigate()
   return (
     <Box sx={{ marginTop:"3rem", marginBottom:"3rem"}}>
 
-    <Grid container mt={5} sx={{height:"115vh", backgroundColor:"rgb(247, 253, 255)"}}>
+    <Grid container mt={5} sx={{height:"115vh", backgroundColor:"rgb(255, 255, 255)"}}>
       <Grid item xs={11} md={6} m={"auto"}>
         <Paper
           elevation={6}
@@ -142,7 +142,7 @@ const navigate=useNavigate()
                 onChange={handleChange}
                 value={content.status}
               >
-                {status.map((item, index) => (
+                {status?.map((item, index) => (
                   <MenuItem key={index} value={item.letter}>
                     {item.name}
                   </MenuItem>

@@ -8,7 +8,7 @@ import { btnLead } from '../styles/globalStyles';
 const News = ({news})=> {
 
   return (
-    <Box container height={"100vh"} sx={{backgroundColor:"#d8e6f4", overflow:"scroll"}}  >
+    <Box container height={"100vh"} sx={{backgroundColor:"#ffffff", overflow:"scroll"}}  >
     <Grid container sx={{marginBottom:"3rem"}} >
       {news?.map((item, index)=>(
     <Box
@@ -19,7 +19,7 @@ const News = ({news})=> {
       elevation={3}
       sx={{
         color: "black",
-        "&:hover": { backgroundColor: "#eef8fa" },
+        "&:hover": { backgroundColor: "#ffffff" },
         transition: "0.3s",
         padding:"0.5rem",
         display:"flex",
