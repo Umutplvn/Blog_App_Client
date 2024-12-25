@@ -150,7 +150,6 @@ export const detailPageStyle = {
   display:"flex",
   flexDirection:"column",
   backgroundAttachment:"fixed",
-  backgroundColor:"rgb(247, 253, 255)",
   overflow:"scroll",
   paddingBottom:"5rem"
  
